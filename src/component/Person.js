@@ -29,7 +29,7 @@ class Person extends Component {
 
   componentWillUnmount = () => {
     //console.log("run componentWillUnmount ");
-    clearInterval(this.state.timer);
+    clearInterval(this.state.counter);
   };
 
   render() {
